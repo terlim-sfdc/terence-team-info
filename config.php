@@ -27,10 +27,10 @@ Version:  2.0
 ###########################################################
 
 /* Define MySQL connection details and database table name */
-$SETTINGS["mysql_user"]='user';
-$SETTINGS["mysql_pass"]='pass';
-$SETTINGS["hostname"]='localhost';
-$SETTINGS["mysql_database"]='demo';
+$SETTINGS["mysql_user"]='bc46adb44c3193';
+$SETTINGS["mysql_pass"]='2684cfa0';
+$SETTINGS["hostname"]='us-cdbr-east-05.cleardb.net';
+$SETTINGS["mysql_database"]='heroku_260c479d1ccef26';
 $SETTINGS["data_table"]='member';
 
 /* Connect to MySQL */
