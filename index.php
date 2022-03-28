@@ -2,7 +2,7 @@
 error_reporting(0);
 include("config.php");
 $is_stacked = isset($_REQUEST['stacked']);
-$sql = "SELECT * FROM ".$SETTINGS["data_table"]." ORDER BY id";
+$sql = "SELECT * FROM ".$SETTINGS["data_table"]." ORDER BY id DESC";
 $result = $mysqli->query ($sql) or die ('request "Could not execute SQL query" '.$sql);
 $rows = array();
 while ($row = $result->fetch_assoc()){
