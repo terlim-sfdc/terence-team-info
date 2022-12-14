@@ -31,7 +31,7 @@ while ($row = $result->fetch_assoc()){
 
 <center>
   <a href="index.php">View as list</a> &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="index.php?stacked">View stacked</a>
+  <a href="index.php?stacked">View stacked view</a>
 </center><br /><br />
 
 <ul id="member-list" class="member-list<?php echo $is_stacked?' stacked':''; ?>">
